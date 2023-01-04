@@ -6,6 +6,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirect": [
+      {
+        "source": "/discord",
+        "destination": "https://discord.com/invite/GBQnTAS4BA",
+        "type": 301
+      }
+    ],
     "rewrites": [
       {
         "source": "**",
