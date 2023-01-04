@@ -15,6 +15,30 @@
     ],
     "rewrites": [
       {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "tryouts",
+        "destination": "/tryouts.html"
+      },
+      {
+        "source": "roster",
+        "destination": "/roster.html"
+      },
+      {
+        "source": "sponsors",
+        "destination": "/sponsors.html"
+      },
+      {
+        "source": "schedule",
+        "destination": "/schedule.html"
+      },
+      {
+        "source": "mini-registration",
+        "destination": "mini-registration.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
