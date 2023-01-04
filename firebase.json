@@ -6,7 +6,7 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirect": [
+    "redirects": [
       {
         "source": "/discord",
         "destination": "https://discord.com/invite/GBQnTAS4BA",

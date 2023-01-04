@@ -55,4 +55,4 @@ firebase deploy --only hosting
 
 <hr>
 
-_This static site was created using the "W3.CSS Templates" from [W3 Schoolers](https://www.w3schools.com/w3css/w3css_templates.asp)._
+_This static site was created using the "Diagoona Template" from [templatemo](https://templatemo.com/tm-550-diagoona)._
