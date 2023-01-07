@@ -8,6 +8,26 @@
     ],
     "redirects": [
       {
+        "source": "/facebook",
+        "destination": "https://facebook.com/mplsmallard",
+        "type": 301
+      },
+      {
+        "source": "/tiktok",
+        "destination": "https://www.tiktok.com/@mplsmallard",
+        "type": 301
+      },
+      {
+        "source": "/twitter",
+        "destination": "https://twitter.com/mplsmallard",
+        "type": 301
+      },
+      {
+        "source": "/instagram",
+        "destination": "https://www.instagram.com/mplsmallard/",
+        "type": 301
+      },
+      {
         "source": "/discord",
         "destination": "https://discord.com/invite/GBQnTAS4BA",
         "type": 301
@@ -19,23 +39,23 @@
         "destination": "/index.html"
       },
       {
-        "source": "tryouts",
+        "source": "/tryouts",
         "destination": "/tryouts.html"
       },
       {
-        "source": "roster",
+        "source": "/roster",
         "destination": "/roster.html"
       },
       {
-        "source": "sponsors",
+        "source": "/sponsors",
         "destination": "/sponsors.html"
       },
       {
-        "source": "schedule",
+        "source": "/schedule",
         "destination": "/schedule.html"
       },
       {
-        "source": "mini-registration",
+        "source": "/mini-registration",
         "destination": "mini-registration.html"
       },
       {
