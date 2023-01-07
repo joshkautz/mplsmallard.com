@@ -163,8 +163,6 @@ p {
 
 .tm-content {
   max-width: 660px;
-  margin-top: 50px;
-  padding-right: 20px;
 }
 
 .tm-about {
@@ -185,6 +183,7 @@ p {
 .tm-content-title {
   font-size: 1.5rem;
 }
+
 hr {
   border-top: 1px solid white;
 }
@@ -211,7 +210,8 @@ hr {
 }
 
 .tm-site-footer {
-  padding: 40px 0 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   max-width: 660px;
   font-size: 0.95rem;
 }
@@ -274,6 +274,7 @@ textarea {
 .mb-85 {
   margin-bottom: 85px;
 }
+
 .tm-contact-main {
   max-width: 690px;
 }
@@ -307,16 +308,22 @@ a.hyperlink:visited {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 a.hyperlink:hover {
-  color: #ffffff;
+  color: #bfbfbf;
   text-decoration: underline;
   font-weight: bold;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5), 0px 0px 15px rgba(255, 255, 255, 0.7);
 }
 a.hyperlink:active {
-  color: #ffffff;
+  color: #dfdfdf;
   text-decoration: underline;
   font-weight: bold;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.5), 0px 0px 15px rgba(255, 255, 255, 0.7);
+}
+
+.content {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 25px 25px 25px 25px;
 }
 
 @media (max-width: 1200px) {
@@ -332,6 +339,7 @@ a.hyperlink:active {
 
 @media (max-width: 992px) {
   .tm-nav {
+    z-index: 1;
     position: absolute;
     background: rgba(0, 0, 0, 0.8);
     color: white;
@@ -354,9 +362,6 @@ a.hyperlink:active {
     color: #9cc;
   }
 
-  .tm-content {
-    margin-top: 20px;
-  }
   .tm-site-footer {
     padding-top: 40px;
   }
@@ -418,7 +423,6 @@ a.hyperlink:active {
 
   .tm-content {
     max-height: none;
-    margin-top: 40px;
   }
 
   .tm-col-right {
@@ -441,6 +445,9 @@ a.hyperlink:active {
   }
   .tm-slogon {
     font-size: 0.8rem;
+  }
+  .tm-content {
+    margin-top: 20px;
   }
 }
 
