@@ -2,7 +2,7 @@
 
 # MPLS Mallard 🦆
 
-![Production GitHub Workflow Status](https://github.com/joshkautz/subzeroultimate.com/actions/workflows/firebase-hosting-merge.yml/badge.svg "Production GitHub Workflow Status")
+![Production GitHub Workflow Status](https://github.com/joshkautz/mplsmallard.com/actions/workflows/firebase-hosting-merge.yml/badge.svg "Production GitHub Workflow Status")
 
 ## Development 💻
 
@@ -27,7 +27,7 @@ Windows
 ```PowerShell
 $Date = Get-Date -Format "dddd-MM-dd-yyyy-HH-mm-ss"
 $Channel = "Preview-" + $Date
-firebase hosting:channel:deploy $Channel --expires 3d --project sub-zero-ultimate
+firebase hosting:channel:deploy $Channel --expires 3d
 ```
 
 Linux
@@ -35,7 +35,7 @@ Linux
 ```Bash
 Date=$(date +'%A-%m-%d-%Y-%H-%M-%S')
 Channel="Preview-"$Date
-firebase hosting:channel:deploy $Channel --expires 3d --project sub-zero-ultimate
+firebase hosting:channel:deploy $Channel --expires 3d
 ```
 
 ### Manual: Deploy Site to Firebase Hosting Live Channel
