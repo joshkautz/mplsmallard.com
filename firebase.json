@@ -55,10 +55,6 @@
         "destination": "/schedule.html"
       },
       {
-        "source": "/mini-registration",
-        "destination": "mini-registration.html"
-      },
-      {
         "source": "**",
         "destination": "/index.html"
       }
